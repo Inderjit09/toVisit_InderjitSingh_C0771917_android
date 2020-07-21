@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lin_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:padding="10dp"
+        android:background="#1111"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cell_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="4dp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/location"
+            android:text="Place Name"
+            android:textColor="#111111"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cell_visited"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginRight="15dp"
+            android:gravity="right"
+            android:background="@color/colorWhite"
+            android:paddingLeft="25dp"
+            android:paddingTop="5dp"
+            android:paddingRight="25dp"
+            android:paddingBottom="5dp"
+            android:text="@string/visit"
+            android:textColor="@color/colorBlack"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>
